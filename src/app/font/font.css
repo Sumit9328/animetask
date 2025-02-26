@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "ppr-m";
+    src: url("./PPPangramSansRounded-Medium.ttf");
+}
+
+@font-face {
+    font-family: "ppr-sm";
+    src: url("./PPPangramSansRounded-Semibold.ttf");
+}
+
+
+@font-face {
+    font-family: "pprm";
+    src: url("./PPPangramSansRounded-Bold.otf");
+}
+ 
+
+
+@font-face {
+    font-family: "nun-t";
+    src: url("./NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf");
+}
