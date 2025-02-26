@@ -94,7 +94,7 @@ const Home = () => {
       <section className="overflow-hidden">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-12 sm:flex sm:px-5 sm:pt-4 pt-4">
+            <div className="col-md-12 sm:flex px-5 sm:pt-4 pt-4">
               <div className="col-md-6 sm:flex items-center sm:px-5 px-3">
                 <div className="col-md-8">
                   <div className="sm:flex items-center">
