@@ -563,37 +563,38 @@ const Home = () => {
 
 
 
-<section className="overflow-hidden">
+    <section className="overflow-hidden">
   <div className="container-fluid">
     <div className="row">
       <div className="col-md-12 sm:pt-24 pt-4 sm:pb-24 pb-4">
-      <div className="sm:flex justify-center items-center sm:px-5 px-3">
-      <div className="bg-[#FF6F52] text-white rounded-full w-full max-w-4xl px-5 py-5 flex flex-col items-center shadow-lg">
-        <h2 className="text-xl sm:text-[40px] md:text-3xl font-[700] font-[ppr-m] text-center">
-          Start learning new skills today and <br /> pursue your passion
-        </h2>
-        <p className="sm:mt-3 text-center text-[16px] font-[nun-t] md:text-base">
-          Join the community of global learners and start exploring today.
-        </p>
+        <div className="sm:flex justify-center items-center sm:px-5 px-3">
+          <div className="bg-[#FF6F52] text-white rounded-full w-full max-w-4xl px-5 py-5 flex flex-col items-center shadow-lg">
+            <h2 className="text-lg sm:text-[40px] md:text-3xl font-[700] font-[ppr-m] text-center">
+              Start learning new skills today and <br /> pursue your passion
+            </h2>
+            <p className="sm:mt-3 text-center text-[14px] sm:text-[16px] font-[nun-t] md:text-base">
+              Join the community of global learners and start exploring today.
+            </p>
 
-        <div className=" flex items-center bg-white rounded-full sm:p-1 ">
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="Enter your email"
-            className="sm;flex-1 px-4 sm:py-2 text-gray-700 outline-none bg-transparent"
-          />
-          <button className="bg-[#FF6F52] text-white font-semibold px-5 py-2 rounded-full flex items-center">
-            GET STARTED →
-          </button>
+            <div className="flex flex-col sm:flex-row items-center bg-white rounded-full sm:p-1 mt-4 sm:mt-2">
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Enter your email"
+                className="flex-1 px-4 py-2 text-gray-700 outline-none bg-transparent w-full sm:w-auto text-sm sm:text-base"
+              />
+              <button className="bg-[#FF6F52] text-white font-semibold px-5 py-2 rounded-full w-full sm:w-auto mt-2 sm:mt-0">
+                GET STARTED →
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
       </div>
     </div>
   </div>
 </section>
+
 
 
 

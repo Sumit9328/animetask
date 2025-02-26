@@ -51,6 +51,8 @@ export default function Footer() {
             <Image 
               src="/images/Rectangle 164.svg" 
               alt="Sell Products" 
+              width={300}
+              height={250}
               className="rounded-lg shadow-md"
             />
             <button className="mt-3 bg-white text-blue-900 border border-blue-900 px-4 py-2 rounded-lg font-[400] text-[14px] font-[nun-t] hover:bg-blue-900 hover:text-white transition">
