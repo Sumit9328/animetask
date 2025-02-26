@@ -93,8 +93,10 @@ const Home = () => {
 
       <section className="overflow-hidden">
         <div className="container-fluid">
+          <div className="sm:px-8">
+
           <div className="row">
-            <div className="col-md-12 sm:flex px-5 sm:pt-4 pt-4">
+            <div className="col-md-12 sm:flex sm:pt-4 pt-4">
               <div className="col-md-6 sm:flex items-center sm:px-5 px-3">
                 <div className="col-md-8">
                   <div className="sm:flex items-center">
@@ -140,6 +142,7 @@ const Home = () => {
               </div>
             </div>
           </div>
+          </div>
         </div>
       </section>
 
@@ -147,6 +150,8 @@ const Home = () => {
 
       <section className="overflow-hidden">
         <div className="container-fluid">
+          <div className="sm:px-8">
+
           <div className="row">
             <div className="col-md-12 sm:flex justify-center items-center sm:px-5 px-4">
               <div className="col-md-3"></div>
@@ -164,6 +169,7 @@ const Home = () => {
               </div>
             </div>
           </div>
+          </div>
         </div>
       </section>
 
@@ -171,6 +177,8 @@ const Home = () => {
 
 <section className="overflow-hidden">
   <div className="container-fluid">
+    <div className="sm:px-8">
+
     <div className="row">
       <div className="col-md-12 sm:px-5 pt-24 sm:flex justity-between items-center">
         <div className="col-md-3 sm:py-0 py-4">
@@ -247,6 +255,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </div>
   </div>
 </section>
 
@@ -254,6 +263,8 @@ const Home = () => {
 
 <section className="overflow-hidden">
   <div className="container-fluid">
+    <div className="sm:px-8">
+
     <div className="row">
       <div className="col-md-12 sm:px-5 px-3 pt-14">
       <div className="p-6 bg-white">
@@ -298,6 +309,7 @@ const Home = () => {
     </div>
       </div>
     </div>
+    </div>
   </div>
 </section>
 
@@ -306,6 +318,8 @@ const Home = () => {
 
 <section className="overflow-hidden">
   <div className="container-fluid">
+    <div className="sm:px-8">
+
     <div className="row">
       <div className="col-md-12 sm:px-5 px-3 pt-14">
       <div className="px-4">
@@ -332,6 +346,7 @@ const Home = () => {
     </div>
       </div>
     </div>
+    </div>
   </div>
 </section>
 
@@ -340,7 +355,9 @@ const Home = () => {
 
 
 <section className="overflow-hidden">
-  <div className="container-fluid">
+  <div className="container-fluid p-0 m-0">
+    <div className="sm:px-8">
+
     <div className="row">
       <div className="row-md-12 sm:flex justify-between gap-4">
         <div className="col-md-10">
@@ -395,11 +412,12 @@ const Home = () => {
 </div>
           </div>
         </div>
-        <div className="col-md-2 flex justify-end">
-        <Image src="/images/Vector.svg" alt="Bookmark" width={176} height={346} />
+        <div className="col-md-2 absolute right-[1px] flex justify-end">
+        <Image src="/images/Vector.svg" className="hidden sm:block" alt="Bookmark" width={176} height={346} />
 
         </div>
       </div>
+    </div>
     </div>
   </div>
 </section>
@@ -408,6 +426,8 @@ const Home = () => {
 
 <section className="overflow-hidden">
   <div className="container-fluid">
+    <div className="sm:px-8">
+
     <div className="row">
       <div className="col-md-12 sm:px-5 px-3 pt-14">
         <h2 className="text-[40px] px-4 font-[ppr-m] font-[700] text-blue-900 pb-5">
@@ -450,6 +470,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </div>
   </div>
 </section>
 
@@ -464,6 +485,8 @@ const Home = () => {
 
 <section className="overflow-hidden">
         <div className="container-fluid">
+          <div className="sm:px-8">
+
           <div className="row">
             <div className="col-md-12 sm:flex sm:px-5 px-3">
               
@@ -506,6 +529,7 @@ const Home = () => {
 
             </div>
           </div>
+          </div>
         </div>
       </section>
 
@@ -516,6 +540,8 @@ const Home = () => {
 
       <section className="overflow-hidden mx-auto sm:px-5 px-3 sm:pt-14 pt-4">
         <div className="container-fluid">
+          <div className="sm:px-8">
+            
           <div className="row">
             <div className="col-md-12 sm:px-5 px-3">
 
@@ -558,6 +584,7 @@ const Home = () => {
             </div>
 
           </div>
+          </div>
         </div>
     </section>
 
@@ -565,6 +592,8 @@ const Home = () => {
 
     <section className="overflow-hidden">
   <div className="container-fluid">
+    <div className="sm:py-10">
+
     <div className="row">
       <div className="col-md-12 sm:pt-24 pt-4 sm:pb-24 pb-4">
         <div className="sm:flex justify-center items-center sm:px-5 px-3">
@@ -584,13 +613,14 @@ const Home = () => {
                 placeholder="Enter your email"
                 className="flex-1 px-4 py-2 text-gray-700 outline-none bg-transparent w-full sm:w-auto text-sm sm:text-base"
               />
-              <button className="bg-[#FF6F52] text-white font-semibold px-5 py-2 rounded-full w-full sm:w-auto mt-2 sm:mt-0">
+              <button className="bg-[#FF6F52] text-white font-semibold px-5 py-2 rounded-full w-full sm:w-auto  sm:mt-0">
                 GET STARTED →
               </button>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   </div>
 </section>

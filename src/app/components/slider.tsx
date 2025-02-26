@@ -26,8 +26,11 @@ export default function TeacherSlider() {
   }, []);
 
   return (
+    <>
+    
+    
     <div className="col-md-12 sm:pt-14">
-      <div className="sm:py-10 py-4 sm:px-5 px-3 relative">
+      <div className="sm:py-10 py-4 relative">
         <h2 className="text-[40px] font-[ppr-m] font-[700] text-[#1A237E] px-4 mb-5 text-center sm:text-left">
           Meet our teachers
         </h2>
@@ -76,5 +79,6 @@ export default function TeacherSlider() {
         </Swiper>
       </div>
     </div>
+    </>
   );
 }
