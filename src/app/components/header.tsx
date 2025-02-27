@@ -9,7 +9,8 @@ const Header = () => {
 
   return (
     <>
-      <section className="overflow-visible">
+      <section className="fixed top-0 left-0 w-full bg-[#eef2ff] z-50">
+
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12 bg-[#eef2ff] px-5 py-4">

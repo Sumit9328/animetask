@@ -91,7 +91,7 @@ const Home = () => {
         <Header />
       </section>
 
-      <section className="overflow-hidden">
+      <section className="overflow-hidden sm:pt-10">
         <div className="container-fluid">
           <div className="sm:px-8">
 
