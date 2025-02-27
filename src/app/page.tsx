@@ -7,6 +7,7 @@ import CurrencyToggle from "./components/capButton";
 import TeacherSlider from "./components/slider";
 import { useState } from "react";
 import Footer from "./components/footer";
+import BotTopButton from "./components/botTop";
 import EmailInput from "./components/emailInput";
 import AnimatedLogo from "./components/animBut";
 import { FaArrowRight } from "react-icons/fa";
@@ -87,6 +88,7 @@ const Home = () => {
   const [email, setEmail] = useState("");
   return (
     <>
+    
       <section>
         <Header />
       </section>
@@ -619,13 +621,29 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className="col-md-12 flex relative">
+        <div className="col-md-11"></div>
+        <div className="col-md-1 absolute right-10 top-[-100px]">
+<BotTopButton/>
+        </div>
+
+      </div>
       </div>
     </div>
     </div>
   </div>
 </section>
 
-
+<section className="overflow-hidden">
+  <div className="container-fluid">
+    <div className="py-4 sm:px-8">
+    <div className="row">
+     
+    </div>
+    </div>
+   
+  </div>
+</section>
 
 
 <Footer/>
