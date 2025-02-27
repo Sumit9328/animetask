@@ -67,16 +67,17 @@ export default function Footer() {
         </div>
 
         <div className="border-t px-4 border-gray-300 mt-10 pt-3 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm">
-          <p className="font-[ppr-m]">© Project 2021. All rights reserved.</p>
-          <p className="flex items-center font-[nun-t]">
+          <p className="font-[ppr-m] text-[16px]">© Project 2021. All rights reserved.</p>
+          <p className="flex items-center sm:font-[16px] text-[22px] font-[nun-t]">
             Made with <span className="text-red-500 mx-1">❤️</span> by SimplePlan
           </p>
-          <div className="flex space-x-4 mt-3 md:mt-0">
-            <FaFacebookF className="text-gray-600 hover:text-blue-900 transition cursor-pointer" />
-            <FaInstagram className="text-gray-600 hover:text-blue-900 transition cursor-pointer" />
-            <FaLinkedinIn className="text-gray-600 hover:text-blue-900 transition cursor-pointer" />
-            <FaTwitter className="text-gray-600 hover:text-blue-900 transition cursor-pointer" />
-          </div>
+          <div className="flex space-x-4 mt-2 md:mt-0">
+    <FaFacebookF className="text-gray-600 hover:text-blue-900 transition cursor-pointer text-2xl md:text-3xl" />
+    <FaInstagram className="text-gray-600 hover:text-blue-900 transition cursor-pointer text-2xl md:text-3xl" />
+    <FaLinkedinIn className="text-gray-600 hover:text-blue-900 transition cursor-pointer text-2xl md:text-3xl" />
+    <FaTwitter className="text-gray-600 hover:text-blue-900 transition cursor-pointer text-2xl md:text-3xl" />
+</div>
+
         </div>
       </div>
       </div>

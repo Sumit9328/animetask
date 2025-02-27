@@ -299,7 +299,7 @@ const Home = () => {
               <p className="text-sm text-gray-600 font-[nun-t]">by John Doe <span className="text-yellow-500">★ 4.7</span></p>
               <p className="text-gray-600 text-sm mt-2 font-[nun-t]">Lorem ipsum dolor sit amet, varius consectetur varius entat consectetur adipiscing elit...</p>
             </div>
-            <div className="flex justify-between gap-2 px-4 py-2 border-t">
+            <div className="flex justify-between gap-2 px-4 sm:mb-0 mb-4 py-2 border-t">
               <p className="text-white font-[ppr-m] p-0 m-0">{currency === 'NOK' ? 'kr1000' : '₹1,499'} <span className="text-gray-400 line-through">{currency === 'NOK' ? 'kr2000' : '₹2,499'}</span></p>
               <p className="text-white px-4 py-0 font-[ppr-m] rounded-full p-0 m-0 pb-2">Enroll now</p>
             </div>

@@ -17,18 +17,19 @@ export default function EmailInput() {
                 onChange={(e) => setEmail(e.target.value)}
                 className="flex-grow px-4 py-2 text-gray-700 text-[14px] font-[ppr-sm] font-[300] focus:outline-none"
             />
-            <button className="bg-blue-800 text-white px-6 py-[12px] flex items-center justify-center w-[180px] rounded-full hover:bg-blue-900 transition">
-                <span className="font-[400] font-[ppr-sm] text-[12px] mr-2 whitespace-nowrap">
-                    START EXPLORING
-                </span>
-                <Image
-                    src="/images/arrow-right-circle.svg"
-                    alt="Agile Logo"
-                    width={35}
-                    height={35}
-                    className="p-0 m-0"
-                />
-            </button>
+            <button className="bg-blue-800 text-white sm:px-6 py-[12px] flex items-center justify-center w-full max-w-[250px] sm:w-[180px] rounded-full hover:bg-blue-900 transition mx-auto">
+    <span className="font-[400] font-[ppr-sm] sm:text-[12px] text-[9px] sm:mr-2 text-center whitespace-nowrap">
+        START EXPLORING
+    </span>
+    <Image
+        src="/images/arrow-right-circle.svg"
+        alt="Agile Logo"
+        width={35}
+        height={35}
+        className="p-0 m-0 hidden sm:block"
+    />
+</button>
+
         </div>
         </div>
 
