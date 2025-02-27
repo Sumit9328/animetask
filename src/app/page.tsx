@@ -93,7 +93,7 @@ const Home = () => {
         <Header />
       </section>
 
-      <section className="overflow-hidden sm:pt-10">
+      <section className="overflow-hidden sm:pt-10 pt-20">
         <div className="container-fluid">
           <div className="sm:px-8">
 
@@ -597,9 +597,9 @@ const Home = () => {
     <div className="sm:py-10">
 
     <div className="row">
-      <div className="col-md-12 sm:pt-24 pt-4 sm:pb-24 pb-4">
+      <div className="col-md-12 sm:pt-24 pt-14 sm:pb-24 pb-4">
         <div className="sm:flex justify-center items-center sm:px-5 px-3">
-          <div className="bg-[#FF6F52] text-white rounded-full w-full max-w-4xl px-5 py-5 flex flex-col items-center shadow-lg">
+          <div className="bg-[#FF6F52] text-white rounded-full w-full max-w-4xl px-5 py-5 flex flex-col items-center shadow-md">
             <h2 className="text-lg sm:text-[40px] md:text-3xl font-[700] font-[ppr-m] text-center">
               Start learning new skills today and <br /> pursue your passion
             </h2>
@@ -623,7 +623,7 @@ const Home = () => {
         </div>
         <div className="col-md-12 flex relative">
         <div className="col-md-11"></div>
-        <div className="col-md-1 absolute right-10 top-[-100px]">
+        <div className="col-md-1 absolute right-10 sm:top-[-100px] hidden sm:block">
 <BotTopButton/>
         </div>
 
